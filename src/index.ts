@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { MCPServer } from "@mastra/mcp";
-import { nasaPicOfDayTool } from "./tools/nasaPicOfDay";
-import { getCurrentDateTool } from "./tools/getCurrentDate";
+import { nasaPicOfDayTool } from "./tools/nasaPicOfDay.js";
+import { getCurrentDateTool } from "./tools/getCurrentDate.js";
 
 const server = new MCPServer({
   name: "nasa-mcp-server",
